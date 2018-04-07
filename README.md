@@ -9,10 +9,9 @@ I have two data sources:
  > 2) ~5k records of Crime and Mystery book database that I collected from [goodreads.com](https://www.goodreads.com/list/show/11.Best_Crime_Mystery_Books).
 
 
-The directory `data` contains sample data from goodreads.com (after pre-processing). The directory _**notebooks**_ contains two jupyter 
-notebooks to pre-process and analyze the data. 
+The directory `data` contains sample data from goodreads.com (after pre-processing). The directory _**notebooks**_ contains three jupyter 
+notebooks: two to collect and pre-process data and the other one to actually build a recommendation system. 
 
 ### Current state of project: 
-Have collected all the data that I need to build a recommendation system.  Next step is to implement collaborative-filtering 
-based recommendation system algorithm. 
-
+Have a working recommendation system based on item-similarity and matrix factorization.
+Working on developing a better evaluation metric.
